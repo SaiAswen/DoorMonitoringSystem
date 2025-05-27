@@ -1,7 +1,6 @@
 #include "Wire.h"
-#include <stdint.h>  // for uint8_t
+#include <stdint.h> 
 
-// Door sensor input pins
 const int doorSensorPins[4] = {2, 3, 4, 5};
 bool doorOpenFlags[4] = {false};
 
@@ -9,7 +8,6 @@ const int MODE_OFF = 0;
 const int MODE_AUTO = 1;
 const int MODE_ALWAYS_ON = 2;
 
-// Output pins
 const int lightPin = 10;
 const int ledGreenPin = 11;
 const int ledRedPin = 12;
